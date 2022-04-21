@@ -3,6 +3,8 @@ import { StyleSheet } from 'react-native'
 import { Button as PaperButton } from 'react-native-paper'
 import { theme } from '../core/theme'
 
+import COLORS from '../consts/colors';
+
 export default function Button({ mode, style, ...props }) {
   return (
     <PaperButton

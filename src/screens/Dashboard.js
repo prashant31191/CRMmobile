@@ -14,6 +14,17 @@ export default function Dashboard({ navigation }) {
         Your amazing app starts here. Open you favorite code editor and start
         editing this project.
       </Paragraph>
+
+      
+      <Button
+        mode="contained"
+        onPress={() =>
+          navigation.navigate('NewsListScreen')          
+        }
+      >
+        Show latest news from api
+      </Button>
+
       <Button
         mode="outlined"
         onPress={() =>
@@ -25,6 +36,8 @@ export default function Dashboard({ navigation }) {
       >
         Logout
       </Button>
+
+    
     </Background>
   )
 }
