@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet } from 'react-native'
 import { View } from 'react-native'
-import COLORS from '../consts/colors';
+import COLORS from '../constant/colors';
 
 export default function CardView(props) {
   return <View style={styles.cardShadow} {...props} />

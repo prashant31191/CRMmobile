@@ -12,7 +12,7 @@ import {ActivityIndicator,
   Image,
   View
 } from 'react-native';
-import COLORS from '../consts/colors';
+import COLORS from '../constant/colors';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 
 export default function NewsListScreen({navigation}) {

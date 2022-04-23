@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 import { Button as PaperButton } from 'react-native-paper'
 import { theme } from '../core/theme'
 
-import COLORS from '../consts/colors';
+import COLORS from '../constant/colors';
 
 export default function Button({ mode, style, ...props }) {
   return (
